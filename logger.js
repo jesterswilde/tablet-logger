@@ -1,4 +1,4 @@
-var logger = function(){
+var tabletLogger = function(){
     var url = "192.168.0.100:8080";
 	if(typeof console.log === "function"){
 		var oldLog = console.log; 
